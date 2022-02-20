@@ -1,0 +1,106 @@
+#link{
+    text-decoration: none; color:white;
+}
+#dropdown{
+    background-color: transparent; border:none;
+}
+#dropdownList{
+    color: #03ab2b;
+}
+#button{
+    border: 3px solid white; color:white;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: #03ab2b;
+}
+#blackAndWhite{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity:80%;
+    transition: 0.3s;
+}
+#blackAndWhite:hover{
+    -webkit-filter: none;
+    opacity: 100%;
+}
+#largeText{
+    color: white;
+    font-size: 80px;
+}
+#smallText{
+    color: rgba(255, 255, 255, 0.822);
+    font-size: medium;
+    text-align: justify;
+    line-height:30px;
+}
+#mediumText{
+    color: white;
+    font-size: 40px;
+}
+#iconIndex{
+    font-size: 80px;
+    color: white;
+}
+#containerContact{
+    width: 50%;
+}
+#formContact > div > label {
+    color: white;
+}
+#card{
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#containerAbout{
+    padding: 50px 200px 50px 200px;
+}
+
+.aboutImage{
+    height: 70%; width:120%;
+}
+.education{
+    margin-top:160px;
+}
+#contactText{
+    color: white;
+    font-size: 30px;
+}
+#contactIcon{
+    color: white;
+    font-size: 50px;
+}
+#projectList{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    border-top: 3px solid white;
+}
+@media (max-width: 40.75em){
+    #containerAbout{
+        padding: 10px 20px 10px 20px;
+    }
+    .aboutImage{
+        height: 70%; width:100%;
+    }
+    .education{
+        margin-top:20px;
+    }
+    #contactText{
+        color: white;
+        font-size: 20px;
+    }
+    #contactIcon{
+        color: white;
+        font-size: 30px;
+    }
+    #largeText{
+        color: white;
+        font-size: 30px;
+    }
+    #containerContact{
+        width: 80%;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wellcome</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
+</style> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ba67138bc2.js" crossorigin="anonymous"></script>
+</head>
+<body style="font-family: 'Roboto Serif', sans-serif; background-color:#4bc96c;">
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-lg">
+    <div class="dropdown">
+  <button id="dropdown" style="" class="btn btn-secondary dropdown-toggle fs-4" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Menu
+  </button>
+  <ul id="dropdown" style="color: white; background-color:white;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a id="dropdownList" class="dropdown-item" href="/">Home</a></li>
+    <li><a id="dropdownList" class="dropdown-item" href="/contact">Contact</a></li>
+    <li><a id="dropdownList" class="dropdown-item" href="/about">About</a></li>
+    <li><a id="dropdownList" class="dropdown-item" target="_blank" href="https://drive.google.com/uc?id=1bZ8G5dh4EmpBLtsWeyQBvHWUcGIKGE_o">CV</a></li>
+  </ul>
+</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item px-3">
+          <a class="nav-link" href="https://github.com/achmadhanafy"><i style="color: white; font-size:25px;" class="fab fa-github"></i></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="https://www.instagram.com/achmad.hanafy/"><i style="color: white; font-size:25px;" class="fab fa-instagram-square"></i></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="https://www.linkedin.com/in/achmad-hanafy-88660614a/"><i style="color: white; font-size:25px;" class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="https://www.facebook.com/ahmad.hanafy.5/"><i style="color: white; font-size:25px;" class="fab fa-facebook"></i></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="mailto:achmadhanafy@gmail.com"><i style="color: white; font-size:25px;" class="fas fa-envelope"></i></a>
+        </li>
+        
+      </ul>
+      <div class="d-flex">
+        <a href="/contact-me" id="button" class="btn fs-5">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container-lg mt-5 pt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <p id="largeText">Hello, I'm Hanafy.</p>
+            <p id="largeText">A Web Developer.</p>
+            <p id="smallText">I build my project to upgrade my programming skills and learn more about programming. I learn about programming basicly from my study in college and learn more with self learning from internet. I have created some project in dekstop aplication and web aplication. My dekstop aplication project is inventory daily stock. I build with java on Netbeans framework, and database using MySql. And now i have focusing my skills on web development with javascript.</p>
+        </div>
+        <div class="col-lg-4">
+            <img width="100%" src="/public/assets/programming.svg" style="object-fit: contain;" alt="">
+            <div class="d-flex mt-5" style="justify-content: space-between;">
+                <i id="iconIndex" class="fab fa-react"></i>
+                <i id="iconIndex" class="fab fa-js"></i>
+                <i id="iconIndex" class="fab fa-node-js"></i>
+                <i id="iconIndex" class="fab fa-bootstrap"></i>
+            </div>
+            
+        </div>
+    </div>
+    <div style="margin:250px 0px 250px 0px;">
+      <p id="mediumText">My Project I have built it</p>
+      <div id="projectList" class="d-flex mt-5" style="margin-bottom: 80px;">
+        <div style="width: 60%;">
+          <img id="blackAndWhite" style="border-radius: 5px;" src="/public/assets/berteman-page.png" width="100%" alt="">
+        </div>
+        <div style="width:40%;">
+          <p id="smallText" style="text-align: right; width:100%;">Featured project</p>
+          <p id="mediumText" style="text-align: right; width:100%;">Berteman Home Page</p>
+          <div style="width:41%; background-color:#03AB2B; position:absolute; left:800px; padding:10px; border-radius:5px;">
+            <p id="smallText">A social media web application, featured home page its user can to update status using an image. And there's static side bar, reels and contact messager. This application allow you to login using Authentication from Facebook with NextAuth</p>
+          </div>
+          <div class="d-flex" style="justify-content: flex-end; margin-top:200px;">  
+            <p id="smallText" class="px-3">Next JS</p>
+            <p id="smallText" class="px-3">Tailwind CSS</p>
+            <p id="smallText" class="px-3">Firebase</p>
+            <p id="smallText" class="px-3">NextAuth</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="projectList" class="d-flex mt-5" style="margin-bottom: 80px;">
+        <div style="width: 60%;">
+          <img id="blackAndWhite" style="border-radius: 5px;" src="/public/assets/e-commerce.png" width="100%" alt="">
+        </div>
+        <div style="width:40%;">
+          <p id="smallText" style="text-align: right; width:100%;">Featured project</p>
+          <p id="mediumText" style="text-align: right; width:100%;">E-Commerce Landing Page</p>
+          <div style="width:41%; background-color:#03AB2B; position:absolute; left:800px; padding:10px; border-radius:5px;">
+            <p id="smallText">Simple E-commerce landing page. User can add product to cart and can choice the size of shoes. And available checkout feature, give information how much the customer have pay, and list of product in the cart </p>
+          </div>
+          <div class="d-flex" style="justify-content: flex-end; margin-top:170px;">  
+            <p id="smallText" class="px-3">React JS</p>
+            <p id="smallText" class="px-3">Firebase</p>
+          </div>
+        </div>
+      </div>
+      <div id="projectList" class="d-flex mt-5" style="margin-bottom: 80px;">
+        <div style="width: 60%;">
+          <img id="blackAndWhite" style="border-radius: 5px;" src="/public/assets/portofolio.png" width="100%" height="100%" alt="">
+        </div>
+        <div style="width:40%;">
+          <p id="smallText" style="text-align: right; width:100%;">Featured project</p>
+          <p id="mediumText" style="text-align: right; width:100%;">Task Dumbways, Personal Web and Portofolio</p>
+          <div style="width:41%; background-color:#03AB2B; position:absolute; left:800px; padding:10px; border-radius:5px;">
+            <p id="smallText">I built this project as task in dumbways bootcamp stage 1. This is project is the final assignment. This project like an portofolio but there's a feature login and register. Allow the user has login to create new project,edit and delete. </p>
+          </div>
+          <div class="d-flex" style="justify-content: flex-end; margin-top:170px;">  
+            <p id="smallText" class="px-3">Node JS</p>
+            <p id="smallText" class="px-3">Express</p>
+            <p id="smallText" class="px-3">Bootstrap</p>
+            <p id="smallText" class="px-3">PostgreSQL</p>
+            
+          </div>
+          <p id="smallText" class="px-3" style="text-align: right;">Handlebars</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+</body>
+</html>
